@@ -14,11 +14,12 @@ ul li {
 }
 .nav{
     height: 60px;
-    padding: 10px;
+    
     background-color: #FFFFFF;
 }
 .nav img{
     float: left;
+    margin-left: 10px;
 }
 .nav ul{
     float: left;
@@ -36,7 +37,7 @@ ul li {
 .search{
     width: 300px;
     float: right;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .search input{
     float: left;
@@ -83,4 +84,42 @@ ul li {
 }
 .subnav ul li a span{
     float: right;
+}
+.channel{
+    float: left;
+    width: 210px;
+    height: 160px;
+    background-color: #5F5750;
+    padding: 5px 12px;
+}
+.channel ul li{
+    float: left;
+    height: 64px;
+    width: 70px;
+    padding-top: 16px;
+    font-size: 12px;
+}
+.channel ul li a{
+    width: 60px;
+    height: 65px;
+    display: inline-block;
+    padding: 0 5px;
+    color: #CFCDCA;
+    text-decoration: none;
+}
+.channel ul li a img,.channel ul li a span{
+    display: block;
+    margin: auto;
+}
+.channel ul li a span{
+    text-align: center;
+    padding-top: 5px;
+}
+.hero-product{
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 20px;
+    background: url("../images/hero_product1.jpg") no-repeat center;
+    background-size: cover;
 }
