@@ -9,6 +9,9 @@ body{
     width: 1280px;
     margin: auto;
 }
+ul li {
+    list-style: none;
+}
 .nav{
     height: 60px;
     padding: 10px;
@@ -22,7 +25,6 @@ body{
     margin-left: 150px;
 }
 .nav ul li{
-    list-style: none;
     display: inline-block;
     line-height: 60px;
 }
@@ -55,4 +57,30 @@ body{
     background: url("../images/search-btn.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+.banner{
+    height: 460px;
+    background: url("../images/banner1.jpg") ;
+    background-size: cover;
+}
+.subnav{
+    width: 234px;
+    height: 455px;
+    background: rgba(0, 0, 0, 0.1);
+    padding-top: 5px;
+}
+.subnav ul li{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+.subnav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.subnav ul li a:hover{
+    color: #FF8000;
+}
+.subnav ul li a span{
+    float: right;
 }
